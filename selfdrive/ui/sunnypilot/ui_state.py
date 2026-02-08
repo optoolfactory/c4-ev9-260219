@@ -128,6 +128,7 @@ class UIStateSP:
     self.active_bundle = self.params.get("ModelManager_ActiveBundle")
     self.custom_interactive_timeout = self.params.get("InteractivityTimeout", return_default=True)
     self.speed_limit_mode = self.params.get("SpeedLimitMode", return_default=True)
+    self.radar_tracks = self.params.get_bool("RadarTracks")
 
     # Onroad Screen Brightness
     self.onroad_brightness = int(float(self.params.get("OnroadScreenOffBrightness", return_default=True)))
