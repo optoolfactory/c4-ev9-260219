@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 00:50-0700\n"
+"POT-Creation-Date: 2026-02-14 05:39+0100\n"
 "PO-Revision-Date: 2025-10-20 18:19-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,80 +17,116 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: selfdrive/ui/layouts/settings/device.py:160
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:185
+#, python-brace-format
+msgid " (Default)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:163
+#, python-brace-format
 msgid " Steering torque response calibration is complete."
 msgstr " Direksiyon tork tepkisi kalibrasyonu tamamlandı."
 
-#: selfdrive/ui/layouts/settings/device.py:158
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:161
+#, python-brace-format
 msgid " Steering torque response calibration is {}% complete."
 msgstr " Direksiyon tork tepkisi kalibrasyonu {}% tamamlandı."
 
-#: selfdrive/ui/layouts/settings/device.py:133
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:136
+#, python-brace-format
 msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
 msgstr " Cihazınız {:.1f}° {} ve {:.1f}° {} yönünde konumlandırılmış."
 
-#: selfdrive/ui/layouts/sidebar.py:43
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:23
+#, python-brace-format
+msgid "%"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:180
+#, python-brace-format
+msgid ""
+"(Only for highest tiers, and does NOT bring ANY benefit to you yet. We are "
+"just testing data volume.)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:327
+#, python-brace-format
+msgid ", but we'll be here when you're ready to come back."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:45
 msgid "--"
 msgstr "--"
 
-#: selfdrive/ui/widgets/prime.py:47
-#, python-format
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
 msgid "1 year of drive storage"
 msgstr "1 yıl sürüş depolaması"
 
-#: selfdrive/ui/widgets/prime.py:47
-#, python-format
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
 msgid "24/7 LTE connectivity"
 msgstr "7/24 LTE bağlantısı"
 
-#: selfdrive/ui/layouts/sidebar.py:46
+#: openpilot/selfdrive/ui/layouts/sidebar.py:48
 msgid "2G"
 msgstr "2G"
 
-#: selfdrive/ui/layouts/sidebar.py:47
+#: openpilot/selfdrive/ui/layouts/sidebar.py:49
 msgid "3G"
 msgstr "3G"
 
-#: selfdrive/ui/layouts/sidebar.py:49
+#: openpilot/selfdrive/ui/layouts/sidebar.py:51
 msgid "5G"
 msgstr "5G"
 
-#: selfdrive/ui/layouts/settings/developer.py:23
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:26
 msgid ""
-"<b>WARNING: openpilot longitudinal control is in alpha for this car and will "
-"disable Automatic Emergency Braking (AEB).</b><br><br>On this car, openpilot "
-"defaults to the car's built-in ACC instead of openpilot's longitudinal "
-"control. Enable this to switch to openpilot longitudinal control. Enabling "
-"Experimental mode is recommended when enabling openpilot longitudinal "
-"control alpha. Changing this setting will restart openpilot if the car is "
-"powered on."
+"<b>WARNING: sunnypilot longitudinal control is in alpha for this car and "
+"will disable Automatic Emergency Braking (AEB).</b><br><br>On this car, "
+"sunnypilot defaults to the car's built-in ACC instead of sunnypilot's "
+"longitudinal control. Enable this to switch to sunnypilot longitudinal "
+"control. Enabling Experimental mode is recommended when enabling sunnypilot "
+"longitudinal control alpha. Changing this setting will restart sunnypilot if "
+"the car is powered on."
 msgstr ""
-"<b>UYARI: Bu araç için openpilot boylamsal kontrolü alfa aşamasındadır ve "
-"Otomatik Acil Frenlemeyi (AEB) devre dışı bırakacaktır.</b><br><br>Bu araçta "
-"openpilot, openpilot'un boylamsal kontrolü yerine aracın yerleşik ACC'sini "
-"varsayılan olarak kullanır. openpilot boylamsal kontrolüne geçmek için bunu "
-"etkinleştirin. openpilot boylamsal kontrol alfayı etkinleştirirken Deneysel "
-"modu etkinleştirmeniz önerilir."
 
-#: selfdrive/ui/layouts/settings/device.py:148
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:151
+#, python-brace-format
 msgid "<br><br>Steering lag calibration is complete."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:146
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:149
+#, python-brace-format
 msgid "<br><br>Steering lag calibration is {}% complete."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/firehose.py:138
-#, python-format
-msgid "ACTIVE"
-msgstr "AKTİF"
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:44
+#, python-brace-format
+msgid ""
+"A beautiful rainbow effect on the path the model wants to take. It does not "
+"affect driving in any way."
+msgstr ""
 
-#: selfdrive/ui/layouts/settings/developer.py:15
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:62
+#, python-brace-format
+msgid ""
+"A chime and on-screen alert will play when the traffic light you are waiting "
+"for turns green and you have no vehicle in front of you.<br>Note: This chime "
+"is only designed as a notification. It is the driver's responsibility to "
+"observe their environment and make decisions accordingly."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:70
+#, python-brace-format
+msgid ""
+"A chime and on-screen alert will play when you are stopped, and the vehicle "
+"in front of you start moving.<br>Note: This chime is only designed as a "
+"notification. It is the driver's responsibility to observe their environment "
+"and make decisions accordingly."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:18
 msgid ""
 "ADB (Android Debug Bridge) allows connecting to your device over USB or over "
 "the network. See https://docs.comma.ai/how-to/connect-to-comma for more info."
@@ -99,322 +135,956 @@ msgstr ""
 "sağlar. Daha fazla bilgi için https://docs.comma.ai/how-to/connect-to-comma "
 "adresine bakın."
 
-#: selfdrive/ui/widgets/ssh_key.py:30
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:30
 msgid "ADD"
 msgstr "EKLE"
 
-#: system/ui/widgets/network.py:139
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/trips.py:147
+#, python-brace-format
+msgid "ALL TIME"
+msgstr ""
+
+#: system/ui/widgets/network.py:145
+#, python-brace-format
 msgid "APN Setting"
 msgstr ""
 
-#: selfdrive/ui/widgets/offroad_alerts.py:109
-#, python-format
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:109
+#, python-brace-format
 msgid "Acknowledge Excessive Actuation"
 msgstr "Aşırı Müdahaleyi Onayla"
 
-#: system/ui/widgets/network.py:74 system/ui/widgets/network.py:95
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:105
+#, python-brace-format
+msgid "Actuator Delay:"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:75
+#, python-brace-format
+msgid "Adjust Lane Turn Speed"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:87
+#, python-brace-format
+msgid "Adjust Software Delay"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:88
+#, python-brace-format
+msgid ""
+"Adjust the software delay when Live Learning Steer Delay is toggled off. The "
+"default software delay value is 0.2"
+msgstr ""
+
+#: system/ui/widgets/network.py:80 system/ui/widgets/network.py:101
+#, python-brace-format
 msgid "Advanced"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:98
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:102
+#, python-brace-format
 msgid "Aggressive"
 msgstr "Agresif"
 
-#: selfdrive/ui/layouts/onboarding.py:116
-#, python-format
+#: openpilot/selfdrive/ui/layouts/onboarding.py:120
+#, python-brace-format
 msgid "Agree"
 msgstr "Kabul et"
 
-#: selfdrive/ui/layouts/settings/toggles.py:70
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:111
+#, python-brace-format
+msgid "All"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:143
+#, python-brace-format
+msgid "All states (~6.0 GB)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/tesla.py:35
+#, python-brace-format
+msgid ""
+"Allows the driver to provide limited steering input while openpilot is "
+"engaged."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:184
+#, python-brace-format
+msgid "Always On"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:74
+#, python-brace-format
 msgid "Always-On Driver Monitoring"
 msgstr "Sürekli Sürücü İzleme"
 
-#: selfdrive/ui/layouts/settings/toggles.py:186
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:190
+#, python-brace-format
 msgid ""
-"An alpha version of openpilot longitudinal control can be tested, along with "
-"Experimental mode, on non-release branches."
+"An alpha version of sunnypilot longitudinal control can be tested, along "
+"with Experimental mode, on non-release branches."
 msgstr ""
-"openpilot boylamsal kontrolünün alfa sürümü, Deneysel mod ile birlikte, "
-"yayın dışı dallarda test edilebilir."
 
-#: selfdrive/ui/layouts/settings/device.py:187
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:57
+#, python-brace-format
+msgid ""
+"Apply a custom timeout for settings UI.<br>This is the time after which "
+"settings UI closes automatically if user is not interacting with the screen."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:226
+#, python-brace-format
+msgid "Are you sure you want to backup your current sunnypilot settings?"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:174
+#, python-brace-format
+msgid "Are you sure you want to enter Always Offroad mode?"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:173
+#, python-brace-format
+msgid "Are you sure you want to exit Always Offroad mode?"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:190
+#, python-brace-format
 msgid "Are you sure you want to power off?"
 msgstr "Kapatmak istediğinizden emin misiniz?"
 
-#: selfdrive/ui/layouts/settings/device.py:175
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:178
+#, python-brace-format
 msgid "Are you sure you want to reboot?"
 msgstr "Yeniden başlatmak istediğinizden emin misiniz?"
 
-#: selfdrive/ui/layouts/settings/device.py:119
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:162
+#, python-brace-format
+msgid ""
+"Are you sure you want to reset all sunnypilot settings to default? Once the "
+"settings are reset, there is no going back."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:122
+#, python-brace-format
 msgid "Are you sure you want to reset calibration?"
 msgstr "Kalibrasyonu sıfırlamak istediğinizden emin misiniz?"
 
-#: selfdrive/ui/layouts/settings/software.py:163
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:231
+#, python-brace-format
+msgid ""
+"Are you sure you want to restore the last backed up sunnypilot settings?"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:175
+#, python-brace-format
 msgid "Are you sure you want to uninstall?"
 msgstr "Kaldırmak istediğinizden emin misiniz?"
 
-#: system/ui/widgets/network.py:99 selfdrive/ui/layouts/onboarding.py:147
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:22
+#, python-brace-format
+msgid "Assist"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:29
+#, python-brace-format
+msgid ""
+"Assist: Adjusts the vehicle's cruise speed based on the current road's speed "
+"limit when operating the +/- buttons."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:80
+#, python-brace-format
+msgid "Auto (Dark)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:77
+#, python-brace-format
+msgid "Auto (Default)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:31
+#, python-brace-format
+msgid "Auto Lane Change by Blinker"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:50
+#, python-brace-format
+msgid "Auto Lane Change: Delay with Blind Spot"
+msgstr ""
+
+#: system/ui/widgets/network.py:105
+#: openpilot/selfdrive/ui/layouts/onboarding.py:151
+#: selfdrive/ui/sunnypilot/layouts/onboarding.py:37
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:23
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:40
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:21
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:49
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:32
+#, python-brace-format
 msgid "Back"
 msgstr "Geri"
 
-#: selfdrive/ui/widgets/prime.py:38
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:266
+#, python-brace-format
+msgid "Backup Failed"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:185
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:300
+#, python-brace-format
+msgid "Backup Settings"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/prime.py:38
+#, python-brace-format
 msgid "Become a comma prime member at connect.comma.ai"
 msgstr "connect.comma.ai adresinde comma prime üyesi olun"
 
-#: selfdrive/ui/widgets/pairing_dialog.py:130
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:167
+#, python-brace-format
+msgid ""
+"Become a sponsor of sunnypilot to get early access to sunnylink features "
+"when they become available."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:119
+#, python-brace-format
 msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
 msgstr ""
 "connect.comma.ai'yi ana ekranınıza ekleyerek bir uygulama gibi kullanın"
 
-#: selfdrive/ui/layouts/settings/device.py:68
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:118
+#, python-brace-format
+msgid "Bottom"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:71
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:119
+#, python-brace-format
 msgid "CHANGE"
 msgstr "DEĞİŞTİR"
 
-#: selfdrive/ui/layouts/settings/software.py:50
-#: selfdrive/ui/layouts/settings/software.py:107
-#: selfdrive/ui/layouts/settings/software.py:118
-#: selfdrive/ui/layouts/settings/software.py:147
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:60
+#: openpilot/selfdrive/ui/layouts/settings/software.py:119
+#: openpilot/selfdrive/ui/layouts/settings/software.py:130
+#: openpilot/selfdrive/ui/layouts/settings/software.py:159
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:52
+#, python-brace-format
 msgid "CHECK"
 msgstr "KONTROL ET"
 
-#: selfdrive/ui/widgets/exp_mode_button.py:50
-#, python-format
+#: openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
+#, python-brace-format
 msgid "CHILL MODE ON"
 msgstr "CHILL MODU AÇIK"
 
-#: system/ui/widgets/network.py:155 selfdrive/ui/layouts/sidebar.py:73
-#: selfdrive/ui/layouts/sidebar.py:134 selfdrive/ui/layouts/sidebar.py:136
-#: selfdrive/ui/layouts/sidebar.py:138
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:69
+#, python-brace-format
+msgid "CLEAR"
+msgstr ""
+
+#: system/ui/widgets/network.py:161
+#: openpilot/selfdrive/ui/layouts/sidebar.py:76
+#: openpilot/selfdrive/ui/layouts/sidebar.py:138
+#: openpilot/selfdrive/ui/layouts/sidebar.py:140
+#: openpilot/selfdrive/ui/layouts/sidebar.py:142
+#, python-brace-format
 msgid "CONNECT"
 msgstr "BAĞLAN"
 
-#: system/ui/widgets/network.py:369
-#, python-format
+#: system/ui/widgets/network.py:375
+#, python-brace-format
 msgid "CONNECTING..."
 msgstr "BAĞLAN"
 
 #: system/ui/widgets/confirm_dialog.py:23 system/ui/widgets/option_dialog.py:35
-#: system/ui/widgets/keyboard.py:81 system/ui/widgets/network.py:318
-#, python-format
+#: system/ui/widgets/network.py:324 system/ui/widgets/keyboard.py:81
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:73
+#, python-brace-format
 msgid "Cancel"
 msgstr ""
 
-#: system/ui/widgets/network.py:134
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:73
+#, python-brace-format
+msgid "Cancel Download"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:18
+#, python-brace-format
+msgid "Car First"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:23
+#, python-brace-format
+msgid ""
+"Car First: Use Speed Limit data from Car if available, else use from "
+"OpenStreetMaps"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:18
+#, python-brace-format
+msgid "Car Only"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:21
+#, python-brace-format
+msgid "Car Only: Use Speed Limit data only from Car"
+msgstr ""
+
+#: system/ui/widgets/network.py:140
+#, python-brace-format
 msgid "Cellular Metered"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:68
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:71
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:119
+#, python-brace-format
 msgid "Change Language"
 msgstr "Dili Değiştir"
 
-#: selfdrive/ui/layouts/settings/toggles.py:125
-#, python-format
-msgid "Changing this setting will restart openpilot if the car is powered on."
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:129
+#, python-brace-format
+msgid "Changing this setting will restart sunnypilot if the car is powered on."
 msgstr ""
-" Bu ayarı değiştirmek, araç çalışıyorsa openpilot'u yeniden başlatacaktır."
 
-#: selfdrive/ui/widgets/pairing_dialog.py:129
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:103
+#, python-brace-format
+msgid ""
+"Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is "
+"manually pressed in sunnypilot."
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:102
+#, python-brace-format
+msgid "Choose your sponsorship tier and confirm your support"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:126
+#, python-brace-format
+msgid "Clear Cache"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:67
+#, python-brace-format
+msgid "Clear Model Cache"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:118
+#, python-brace-format
 msgid "Click \"add new device\" and scan the QR code on the right"
 msgstr "\"yeni cihaz ekle\"ye tıklayın ve sağdaki QR kodunu tarayın"
 
-#: selfdrive/ui/widgets/offroad_alerts.py:104
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:54
+#, python-brace-format
+msgid "Click the Sponsor button for more details"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:104
+#, python-brace-format
 msgid "Close"
 msgstr "Kapat"
 
-#: selfdrive/ui/layouts/settings/software.py:49
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:40
+#, python-brace-format
+msgid "Colors represent vehicle fingerprint status:"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:18
+#, python-brace-format
+msgid "Combined"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:25
+#, python-brace-format
+msgid "Combined: Use combined Speed Limit data from Car & OpenStreetMaps"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:158
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:180
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:98
+#, python-brace-format
+msgid "Confirm"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:142
+#, python-brace-format
+msgid "Controls state of the device after boot/sleep."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/tesla.py:20
+#, python-brace-format
+msgid "Cooperative Steering (Beta)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:53
+#, python-brace-format
+msgid "Country"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:120
+msgid "Cruise"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:52
+#, python-brace-format
+msgid "Current Model"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:59
+#, python-brace-format
 msgid "Current Version"
 msgstr "Geçerli Sürüm"
 
-#: selfdrive/ui/layouts/settings/software.py:110
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:61
+#, python-brace-format
+msgid "Custom ACC Speed Increments"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:20
+#, python-brace-format
+msgid "Custom Longitudinal Tuning"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:57
+#, python-brace-format
+msgid "Customize Lane Change"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:52
+#, python-brace-format
+msgid "Customize MADS"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:67
+#, python-brace-format
+msgid "Customize Source"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:90
+#, python-brace-format
+msgid "Customize Torque Params"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:50
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:86
+#, python-brace-format
+msgid "DELETE"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:59
+msgid "DISABLED"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:122
+#, python-brace-format
 msgid "DOWNLOAD"
 msgstr "İNDİR"
 
-#: selfdrive/ui/layouts/onboarding.py:115
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:52
+#, python-brace-format
+msgid "Database Update"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:119
+#, python-brace-format
 msgid "Decline"
 msgstr "Reddet"
 
-#: selfdrive/ui/layouts/onboarding.py:148
-#, python-format
-msgid "Decline, uninstall openpilot"
-msgstr "Reddet, openpilot'u kaldır"
+#: openpilot/selfdrive/ui/layouts/onboarding.py:152
+#, python-brace-format
+msgid "Decline, uninstall sunnypilot"
+msgstr ""
 
-#: selfdrive/ui/layouts/settings/settings.py:67
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:74
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:63
+#, python-brace-format
+msgid "Default"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:204
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:240
+#, python-brace-format
+msgid "Default Model"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:140
+#, python-brace-format
+msgid "Default: Device will boot/wake-up normally & will be ready to engage."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:81
+#, python-brace-format
+msgid "Delay before lateral control resumes after the turn signal ends."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:64
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:128
 msgid "Developer"
 msgstr "Geliştirici"
 
-#: selfdrive/ui/layouts/settings/settings.py:62
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:116
+#, python-brace-format
+msgid "Developer UI"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:59
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:113
 msgid "Device"
 msgstr "Cihaz"
 
-#: selfdrive/ui/layouts/settings/toggles.py:58
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:55
+#, python-brace-format
+msgid ""
+"Device will automatically shutdown after set time once the engine is turned "
+"off.\n"
+"(30h is the default)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/onboarding.py:30
+#: selfdrive/ui/sunnypilot/layouts/onboarding.py:38
+#, python-brace-format
+msgid "Disable"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/software.py:35
+#, python-brace-format
+msgid "Disable Updates"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:25
+msgid ""
+"Disable the sunnypilot Longitudinal Control (alpha) toggle to allow "
+"Intelligent Cruise Button Management."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:22
+#, python-brace-format
+msgid "Disengage"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:62
+#, python-brace-format
 msgid "Disengage on Accelerator Pedal"
 msgstr "Gaz Pedalında Devreden Çık"
 
-#: selfdrive/ui/layouts/settings/device.py:184
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:169
+#, python-brace-format
+msgid "Disengage to Enter Always Offroad Mode"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:187
+#, python-brace-format
 msgid "Disengage to Power Off"
 msgstr "Kapatmak için Devreden Çıkın"
 
-#: selfdrive/ui/layouts/settings/device.py:172
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:175
+#, python-brace-format
 msgid "Disengage to Reboot"
 msgstr "Yeniden Başlatmak için Devreden Çıkın"
 
-#: selfdrive/ui/layouts/settings/device.py:103
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:106
+#, python-brace-format
 msgid "Disengage to Reset Calibration"
 msgstr "Kalibrasyonu Sıfırlamak için Devreden Çıkın"
 
-#: selfdrive/ui/layouts/settings/toggles.py:32
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:22
+msgid "Disengage: ALC will disengage when the brake pedal is pressed."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:122
+msgid "Display"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:109
+#, python-brace-format
+msgid "Display Metrics Below Chevron"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:54
+#, python-brace-format
+msgid "Display Road Name"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:86
+#, python-brace-format
+msgid "Display Turn Signals"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:117
+#, python-brace-format
+msgid "Display real-time parameters and metrics from various sources."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:36
 msgid "Display speed in km/h instead of mph."
 msgstr "Hızı mph yerine km/h olarak göster."
 
-#: selfdrive/ui/layouts/settings/device.py:59
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:39
+#, python-brace-format
+msgid ""
+"Display steering arc on the driving screen when lateral control is enabled."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:15
+msgid ""
+"Display useful metrics below the chevron that tracks the lead car only "
+"applicable to cars with sunnypilot longitudinal control."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:55
+#, python-brace-format
+msgid ""
+"Displays the name of the road the car is traveling on.<br>The OpenStreetMap "
+"database of the location must be downloaded from the OSM panel to fetch the "
+"road name."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:111
+#, python-brace-format
+msgid "Distance"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:62
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:111
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:337
+#, python-brace-format
 msgid "Dongle ID"
 msgstr "Dongle ID"
 
-#: selfdrive/ui/layouts/settings/software.py:50
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:60
+#, python-brace-format
 msgid "Download"
 msgstr "İndir"
 
-#: selfdrive/ui/layouts/settings/device.py:62
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:50
+#, python-brace-format
+msgid "Downloaded Maps"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:51
+#, python-brace-format
+msgid "Downloading Map"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:193
+#, python-brace-format
+msgid "Downloading Maps..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:65
+#, python-brace-format
 msgid "Driver Camera"
 msgstr "Sürücü Kamerası"
 
-#: selfdrive/ui/layouts/settings/toggles.py:96
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:82
+#, python-brace-format
+msgid "Driver Camera Preview"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/trips.py:127
+#, python-brace-format
+msgid "Drives"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:58
+#, python-brace-format
+msgid "Driving Model"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:100
+#, python-brace-format
 msgid "Driving Personality"
 msgstr "Sürüş Kişiliği"
 
-#: system/ui/widgets/network.py:123 system/ui/widgets/network.py:139
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:19
+#, python-brace-format
+msgid "Dynamic"
+msgstr ""
+
+#: system/ui/widgets/network.py:129 system/ui/widgets/network.py:145
+#, python-brace-format
 msgid "EDIT"
 msgstr ""
 
-#: selfdrive/ui/layouts/sidebar.py:138
+#: openpilot/selfdrive/ui/layouts/sidebar.py:142
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:71
 msgid "ERROR"
 msgstr "HATA"
 
-#: selfdrive/ui/layouts/sidebar.py:45
+#: openpilot/selfdrive/ui/layouts/sidebar.py:47
 msgid "ETH"
 msgstr "ETH"
 
-#: selfdrive/ui/widgets/exp_mode_button.py:50
-#, python-format
+#: openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
+#, python-brace-format
 msgid "EXPERIMENTAL MODE ON"
 msgstr "DENEYSEL MOD AÇIK"
 
-#: selfdrive/ui/layouts/settings/developer.py:166
-#: selfdrive/ui/layouts/settings/toggles.py:228
-#, python-format
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:68
+#, python-brace-format
+msgid "Early Access: Become a sunnypilot Sponsor"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:232
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:184
+#: selfdrive/ui/sunnypilot/layouts/onboarding.py:29
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/toyota.py:51
+#, python-brace-format
 msgid "Enable"
 msgstr "Etkinleştir"
 
-#: selfdrive/ui/layouts/settings/developer.py:39
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/tesla.py:30
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/subaru.py:33
+#, python-brace-format
+msgid ""
+"Enable \"Always Offroad\" in Device panel, or turn vehicle off to toggle."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:43
+#, python-brace-format
 msgid "Enable ADB"
 msgstr "ADB'yi Etkinleştir"
 
-#: selfdrive/ui/layouts/settings/toggles.py:64
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:46
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:195
+#, python-brace-format
+msgid "Enable Always Offroad"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:41
+#, python-brace-format
+msgid "Enable Custom Tuning"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:86
+#, python-brace-format
+msgid "Enable Dynamic Experimental Control"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:68
+#, python-brace-format
 msgid "Enable Lane Departure Warnings"
 msgstr "Şerit Terk Uyarılarını Etkinleştir"
 
-#: system/ui/widgets/network.py:129
-#, python-format
+#: system/ui/widgets/network.py:135
+#, python-brace-format
 msgid "Enable Roaming"
 msgstr "openpilot'u etkinleştir"
 
-#: selfdrive/ui/layouts/settings/developer.py:48
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:52
+#, python-brace-format
 msgid "Enable SSH"
 msgstr "SSH'yi Etkinleştir"
 
-#: system/ui/widgets/network.py:120
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:49
+#, python-brace-format
+msgid "Enable Standstill Timer"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:43
+#, python-brace-format
+msgid "Enable Tesla Rainbow Mode"
+msgstr ""
+
+#: system/ui/widgets/network.py:126
+#, python-brace-format
 msgid "Enable Tethering"
 msgstr "Şerit Terk Uyarılarını Etkinleştir"
 
-#: selfdrive/ui/layouts/settings/toggles.py:30
-msgid "Enable driver monitoring even when openpilot is not engaged."
-msgstr "openpilot devrede değilken bile sürücü izlemesini etkinleştir."
-
-#: selfdrive/ui/layouts/settings/toggles.py:46
-#, python-format
-msgid "Enable openpilot"
-msgstr "openpilot'u etkinleştir"
-
-#: selfdrive/ui/layouts/settings/toggles.py:189
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:28
 msgid ""
-"Enable the openpilot longitudinal control (alpha) toggle to allow "
+"Enable custom Short & Long press increments for cruise speed increase/"
+"decrease."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:34
+msgid "Enable driver monitoring even when sunnypilot is not engaged."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:154
+#, python-brace-format
+msgid "Enable sunnylink"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:178
+#, python-brace-format
+msgid "Enable sunnylink uploader (infrastructure test)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:179
+#, python-brace-format
+msgid ""
+"Enable sunnylink uploader to allow sunnypilot to upload your driving data to "
+"sunnypilot servers. "
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:50
+#, python-brace-format
+msgid "Enable sunnypilot"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:40
+#, python-brace-format
+msgid ""
+"Enable the beloved MADS feature. Disable toggle to revert back to stock "
+"sunnypilot engagement/disengagement."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:193
+#, python-brace-format
+msgid ""
+"Enable the sunnypilot longitudinal control (alpha) toggle to allow "
 "Experimental mode."
 msgstr ""
-"Deneysel modu etkinleştirmek için openpilot boylamsal kontrolünü (alfa) açın."
 
-#: system/ui/widgets/network.py:204
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:98
+#, python-brace-format
+msgid ""
+"Enable this for the car to learn and adapt its steering response time. "
+"Disable to use a fixed steering response time. Keeping this on provides the "
+"stock openpilot experience."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:87
+#, python-brace-format
+msgid "Enable this to enforce sunnypilot to steer with Torque lateral control."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:87
+#, python-brace-format
+msgid ""
+"Enable toggle to allow the model to determine when to use sunnypilot ACC or "
+"sunnypilot End to End Longitudinal."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:42
+#, python-brace-format
+msgid ""
+"Enables custom tuning for Torque lateral control. Modifying Lateral "
+"Acceleration Factor and Friction below will override the offline values "
+"indicated in the YAML files within \"opendbc/car/torque_data\". The values "
+"will also be used live when \"Manual Real-Time Tuning\" toggle is enabled."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:43
+#, python-brace-format
+msgid "Enables or disables the GitHub runner service."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:30
+#, python-brace-format
+msgid ""
+"Enables self-tune for Torque lateral control for platforms that do not use "
+"Torque lateral control by default."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:33
+#, python-brace-format
+msgid ""
+"Enabling this will display warnings when a vehicle is detected in your blind "
+"spot as long as your car has BSM supported."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/toyota.py:28
+#, python-brace-format
+msgid "Enforce Factory Longitudinal Control"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:86
+#, python-brace-format
+msgid "Enforce Torque Lateral Control"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:50
+#, python-brace-format
+msgid ""
+"Enforces the torque lateral controller to use the fixed values instead of "
+"the learned values from Self-Tune. Enabling this toggle overrides Self-Tune "
+"values."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:27
+#, python-brace-format
+msgid "Engage lateral and longitudinal control with cruise control engagement."
+msgstr ""
+
+#: system/ui/widgets/network.py:210
+#, python-brace-format
 msgid "Enter APN"
 msgstr ""
 
-#: system/ui/widgets/network.py:241
-#, python-format
+#: system/ui/widgets/network.py:247
+#, python-brace-format
 msgid "Enter SSID"
 msgstr ""
 
-#: system/ui/widgets/network.py:254
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:118
+#, python-brace-format
+msgid "Enter model year (e.g., 2021) and model (Toyota Corolla):"
+msgstr ""
+
+#: system/ui/widgets/network.py:260
+#, python-brace-format
 msgid "Enter new tethering password"
 msgstr ""
 
-#: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
-#, python-format
+#: system/ui/widgets/network.py:243 system/ui/widgets/network.py:320
+#, python-brace-format
 msgid "Enter password"
 msgstr ""
 
-#: selfdrive/ui/widgets/ssh_key.py:89
-#, python-format
+#: system/ui/sunnypilot/widgets/tree_dialog.py:99
+#, python-brace-format
+msgid "Enter search query"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:89
+#, python-brace-format
 msgid "Enter your GitHub username"
 msgstr "GitHub kullanıcı adınızı girin"
 
 #: system/ui/widgets/list_view.py:123 system/ui/widgets/list_view.py:160
-#, python-format
+#, python-brace-format
 msgid "Error"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:52
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:53
+#, python-brace-format
+msgid "Error Log"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:183
+#, python-brace-format
+msgid "Error: Invalid download. Retry."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:195
+#, python-brace-format
+msgid "Exit Always Offroad"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:56
+#, python-brace-format
 msgid "Experimental Mode"
 msgstr "Deneysel Mod"
 
-#: selfdrive/ui/layouts/settings/toggles.py:181
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/subaru.py:47
+#, python-brace-format
+msgid ""
+"Experimental feature to enable auto-resume during stop-and-go for certain "
+"supported Subaru platforms."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/subaru.py:48
+#, python-brace-format
+msgid ""
+"Experimental feature to enable stop and go for Subaru Global models with "
+"manual handbrake. Models with electric parking brake should keep this "
+"disabled. Thanks to martinl for this implementation!"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:185
+#, python-brace-format
 msgid ""
 "Experimental mode is currently unavailable on this car since the car's stock "
 "ACC is used for longitudinal control."
@@ -422,25 +1092,67 @@ msgstr ""
 "Bu araçta boylamsal kontrol için stok ACC kullanıldığından şu anda Deneysel "
 "mod kullanılamıyor."
 
-#: system/ui/widgets/network.py:373
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:73
+msgid "FAULT"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:106
+#, python-brace-format
+msgid "FETCHING..."
+msgstr ""
+
+#: system/ui/widgets/network.py:379
+#, python-brace-format
 msgid "FORGETTING..."
 msgstr ""
 
-#: selfdrive/ui/widgets/setup.py:44
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:64
+#, python-brace-format
+msgid "Fetching Latest Models"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:44
+#, python-brace-format
+msgid "Fingerprinted automatically"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/setup.py:44
+#, python-brace-format
 msgid "Finish Setup"
 msgstr "Kurulumu Bitir"
 
-#: selfdrive/ui/layouts/settings/settings.py:66
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:63
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:127
 msgid "Firehose"
 msgstr "Firehose"
 
-#: selfdrive/ui/layouts/settings/firehose.py:18
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:10
 msgid "Firehose Mode"
 msgstr "Firehose Modu"
 
-#: selfdrive/ui/layouts/settings/firehose.py:25
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:23
+#, python-brace-format
+msgid "Fixed"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:34
+#, python-brace-format
+msgid "Fixed: Adds a fixed offset [Speed Limit + Offset]"
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:95
+#, python-brace-format
+msgid "Follow the prompts to complete the pairing process"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:77
+#, python-brace-format
+msgid ""
+"For applicable vehicles, always display the true vehicle current speed from "
+"wheel speed sensors."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:17
 msgid ""
 "For maximum effectiveness, bring your device inside and connect to a good "
 "USB-C adapter and Wi-Fi weekly.\n"
@@ -484,171 +1196,520 @@ msgstr ""
 "Hangi yazılımı çalıştırdığım önemli mi? Evet, yalnızca upstream openpilot "
 "(ve bazı fork'lar) eğitim için kullanılabilir."
 
-#: system/ui/widgets/network.py:318 system/ui/widgets/network.py:451
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:42
+#, python-brace-format
+msgid "For secure backup, restore, and remote configuration"
+msgstr ""
+
+#: system/ui/widgets/network.py:324 system/ui/widgets/network.py:457
+#, python-brace-format
 msgid "Forget"
 msgstr ""
 
-#: system/ui/widgets/network.py:319
-#, python-format
+#: system/ui/widgets/network.py:325
+#, python-brace-format
 msgid "Forget Wi-Fi Network \"{}\"?"
 msgstr ""
 
-#: selfdrive/ui/layouts/sidebar.py:71 selfdrive/ui/layouts/sidebar.py:125
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:65
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:105
+#, python-brace-format
+msgid "Friction"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:74
+#: openpilot/selfdrive/ui/layouts/sidebar.py:129
 msgid "GOOD"
 msgstr "İYİ"
 
-#: selfdrive/ui/widgets/pairing_dialog.py:128
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:43
+#, python-brace-format
+msgid "GitHub Runner Service"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:117
+#, python-brace-format
 msgid "Go to https://connect.comma.ai on your phone"
 msgstr "Telefonunuzda https://connect.comma.ai adresine gidin"
 
-#: selfdrive/ui/layouts/sidebar.py:129
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:61
+#, python-brace-format
+msgid "Green Traffic Light Alert (Beta)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:133
 msgid "HIGH"
 msgstr "YÜKSEK"
 
-#: system/ui/widgets/network.py:155
-#, python-format
+#: system/ui/widgets/network.py:161
+#, python-brace-format
 msgid "Hidden Network"
 msgstr "Ağ"
 
-#: selfdrive/ui/layouts/settings/firehose.py:140
-#, python-format
-msgid "INACTIVE: connect to an unmetered network"
-msgstr "PASİF: sınırsız bir ağa bağlanın"
+#: selfdrive/ui/sunnypilot/layouts/settings/trips.py:129
+#, python-brace-format
+msgid "Hours"
+msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:53
-#: selfdrive/ui/layouts/settings/software.py:136
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:63
+#: openpilot/selfdrive/ui/layouts/settings/software.py:148
+#, python-brace-format
 msgid "INSTALL"
 msgstr "YÜKLE"
 
-#: system/ui/widgets/network.py:150
-#, python-format
+#: system/ui/widgets/network.py:156
+#, python-brace-format
 msgid "IP Address"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:53
-#, python-format
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:97
+#, python-brace-format
+msgid ""
+"If sponsorship status was not updated, please contact a moderator on the "
+"community forum at https://community.sunnypilot.ai"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:82
+#, python-brace-format
+msgid ""
+"If you're driving at 20 mph (32 km/h) or below and have your blinker on, the "
+"car will plan a turn in that direction at the nearest drivable path. This "
+"prevents situations (like at red lights) where the car might plan the wrong "
+"turn direction."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:22
+#, python-brace-format
+msgid "Info"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:27
+#, python-brace-format
+msgid "Information: Displays the current road's speed limit."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:63
+#, python-brace-format
 msgid "Install Update"
 msgstr "Güncellemeyi Yükle"
 
-#: selfdrive/ui/layouts/settings/developer.py:56
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:46
+#, python-brace-format
+msgid "Intelligent Cruise Button Management (ICBM) (Alpha)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:24
+msgid ""
+"Intelligent Cruise Button Management is currently unavailable on this "
+"platform."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:56
+#, python-brace-format
+msgid "Interactivity Timeout"
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:103
+#, python-brace-format
+msgid ""
+"Join our Community Forum at https://community.sunnypilot.ai and reach out to "
+"a moderator if you have issues"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:60
+#, python-brace-format
 msgid "Joystick Debug Mode"
 msgstr "Joystick Hata Ayıklama Modu"
 
-#: selfdrive/ui/widgets/ssh_key.py:29
+#: selfdrive/ui/sunnypilot/layouts/settings/trips.py:108
+#, python-brace-format
+msgid "KM"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:29
 msgid "LOADING"
 msgstr "YÜKLENİYOR"
 
-#: selfdrive/ui/layouts/sidebar.py:48
+#: openpilot/selfdrive/ui/layouts/sidebar.py:50
 msgid "LTE"
 msgstr "LTE"
 
-#: selfdrive/ui/layouts/settings/developer.py:64
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:220
+#, python-brace-format
+msgid "Last checked {}"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:54
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:104
+#, python-brace-format
+msgid "Lateral Acceleration Factor"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:69
+#, python-brace-format
+msgid "Lead Departure Alert (Beta)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:35
+#, python-brace-format
+msgid "Less Restrict Settings for Self-Tune (Beta)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:36
+#, python-brace-format
+msgid ""
+"Less strict settings when using Self-Tune. This allows torqued to be more "
+"forgiving when learning values."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:91
+#, python-brace-format
+msgid "Live Learning Steer Delay"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:101
+#, python-brace-format
+msgid "Live Steer Delay:"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:73
+#, python-brace-format
+msgid "Long Press Increment"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:68
+#, python-brace-format
 msgid "Longitudinal Maneuver Mode"
 msgstr "Boylamsal Manevra Modu"
 
-#: selfdrive/ui/onroad/hud_renderer.py:148
-#, python-format
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py:148
+#: selfdrive/ui/sunnypilot/onroad/hud_renderer.py:98
+#, python-brace-format
 msgid "MAX"
 msgstr "MAKS"
 
-#: selfdrive/ui/widgets/setup.py:75
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:49
+#, python-brace-format
+msgid "Manual Real-Time Tuning"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:45
+#, python-brace-format
+msgid "Manually selected fingerprint"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:18
+#, python-brace-format
+msgid "Map First"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:24
+#, python-brace-format
+msgid ""
+"Map First: Use Speed Limit data from OpenStreetMaps if available, else use "
+"from Car"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:18
+#, python-brace-format
+msgid "Map Only"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:22
+#, python-brace-format
+msgid "Map Only: Use Speed Limit data only from OpenStreetMaps"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:49
+#, python-brace-format
+msgid "Mapd Version"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:54
+#, python-brace-format
+msgid "Max Time Offroad"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/setup.py:75
+#, python-brace-format
 msgid ""
 "Maximize your training data uploads to improve openpilot's driving models."
 msgstr ""
 "openpilot'un sürüş modellerini iyileştirmek için eğitim veri yüklemelerinizi "
 "en üst düzeye çıkarın."
 
-#: selfdrive/ui/layouts/settings/device.py:59
-#: selfdrive/ui/layouts/settings/device.py:60
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/trips.py:108
+#, python-brace-format
+msgid "Miles"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:68
+#, python-brace-format
+msgid "Minimum Speed to Pause Lateral Control"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:178
+#, python-brace-format
+msgid ""
+"Model download has started in the background. We suggest resetting "
+"calibration. Would you like to do that now?"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:118
+msgid "Models"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:48
+#, python-brace-format
+msgid "Modular Assistive Driving System (MADS)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:62
+#: openpilot/selfdrive/ui/layouts/settings/device.py:63
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:111
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:113
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:213
+#, python-brace-format
 msgid "N/A"
 msgstr ""
 
-#: selfdrive/ui/layouts/sidebar.py:142
+#: openpilot/selfdrive/ui/layouts/sidebar.py:146
 msgid "NO"
 msgstr "HAYIR"
 
-#: selfdrive/ui/layouts/settings/settings.py:63
+#: selfdrive/ui/sunnypilot/onroad/speed_limit.py:262
+#: selfdrive/ui/sunnypilot/onroad/speed_limit.py:273
+#, python-brace-format
+msgid "Near"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:60
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:114
 msgid "Network"
 msgstr "Ağ"
 
-#: selfdrive/ui/widgets/ssh_key.py:114
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:96
+#, python-brace-format
+msgid "Neural Network Lateral Control (NNLC)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:72
+#, python-brace-format
+msgid "No"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:114
+#, python-brace-format
 msgid "No SSH keys found"
 msgstr "SSH anahtarı bulunamadı"
 
-#: selfdrive/ui/widgets/ssh_key.py:126
-#, python-format
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:126
+#, fuzzy, python-brace-format
 msgid "No SSH keys found for user '{}'"
 msgstr "'{username}' için SSH anahtarı bulunamadı"
 
-#: selfdrive/ui/widgets/offroad_alerts.py:320
-#, python-format
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:320
+#, python-brace-format
 msgid "No release notes available."
 msgstr "Sürüm notu mevcut değil."
 
-#: selfdrive/ui/layouts/sidebar.py:73 selfdrive/ui/layouts/sidebar.py:134
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:128
+#, python-brace-format
+msgid "No vehicle selected"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:23
+#, python-brace-format
+msgid "None"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:33
+#, python-brace-format
+msgid "None: No Offset"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:172
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:349
+#, python-brace-format
+msgid "Not Paired"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:344
+#, python-brace-format
+msgid "Not Sponsor"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:46
+#, python-brace-format
+msgid "Not fingerprinted or manually selected"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:326
+#, python-brace-format
+msgid "Not going to lie, it's sad to see you disabled sunnylink"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:25
+#, python-brace-format
+msgid ""
+"Note: For vehicles without LFA/LKAS button, disabling this will prevent "
+"lateral control engagement."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:28
+#, python-brace-format
+msgid ""
+"Note: Once lateral control is engaged via UEM, it will remain engaged until "
+"it is manually disabled via the MADS button or car shut off."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:41
+#, python-brace-format
+msgid "Nudge"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:42
+#, python-brace-format
+msgid "Nudgeless"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:76
+#: openpilot/selfdrive/ui/layouts/sidebar.py:138
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:55
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:77
 msgid "OFFLINE"
 msgstr "ÇEVRİMDIŞI"
 
-#: system/ui/widgets/html_render.py:263 system/ui/widgets/confirm_dialog.py:93
-#: selfdrive/ui/layouts/sidebar.py:127
-#, python-format
+#: system/ui/widgets/confirm_dialog.py:93 system/ui/widgets/html_render.py:263
+#: openpilot/selfdrive/ui/layouts/sidebar.py:131
+#, python-brace-format
 msgid "OK"
 msgstr "OK"
 
-#: selfdrive/ui/layouts/sidebar.py:72 selfdrive/ui/layouts/sidebar.py:136
-#: selfdrive/ui/layouts/sidebar.py:144
+#: openpilot/selfdrive/ui/layouts/sidebar.py:75
+#: openpilot/selfdrive/ui/layouts/sidebar.py:140
+#: openpilot/selfdrive/ui/layouts/sidebar.py:148
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:71
 msgid "ONLINE"
 msgstr "ÇEVRİMİÇİ"
 
-#: selfdrive/ui/widgets/setup.py:20
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:123
+msgid "OSM"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:111
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:118
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:19
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:40
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:22
+#, python-brace-format
+msgid "Off"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:26
+#, python-brace-format
+msgid "Off: Disables the Speed Limit functions."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:103
+#, python-brace-format
+msgid "Offline Only"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:74
+#, python-brace-format
+msgid "Offroad"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:141
+#, python-brace-format
+msgid "Offroad: Device will be in Always Offroad mode after boot/wake-up."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:245
+#, python-brace-format
+msgid "Only available when vehicle is off, or always offroad mode is on"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:35
+#, python-brace-format
+msgid "Onroad Brightness"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:45
+#, python-brace-format
+msgid "Onroad Brightness Delay"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:97
+#, python-brace-format
+msgid "Onroad Uploads"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/setup.py:20
+#, python-brace-format
 msgid "Open"
 msgstr "Aç"
 
-#: selfdrive/ui/layouts/settings/device.py:48
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:51
+#, python-brace-format
 msgid "PAIR"
 msgstr "EŞLE"
 
-#: selfdrive/ui/layouts/sidebar.py:142
+#: openpilot/selfdrive/ui/layouts/sidebar.py:146
 msgid "PANDA"
 msgstr "PANDA"
 
-#: selfdrive/ui/layouts/settings/device.py:62
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/trips.py:149
+#, python-brace-format
+msgid "PAST WEEK"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:65
+#, python-brace-format
 msgid "PREVIEW"
 msgstr "ÖNİZLEME"
 
-#: selfdrive/ui/widgets/prime.py:44
-#, python-format
+#: openpilot/selfdrive/ui/widgets/prime.py:44
+#, python-brace-format
 msgid "PRIME FEATURES:"
 msgstr "PRIME ÖZELLİKLERİ:"
 
-#: selfdrive/ui/layouts/settings/device.py:48
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:51
+#, python-brace-format
 msgid "Pair Device"
 msgstr "Cihazı Eşle"
 
-#: selfdrive/ui/widgets/setup.py:19
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:171
+#, python-brace-format
+msgid "Pair GitHub Account"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/setup.py:19
+#, python-brace-format
 msgid "Pair device"
 msgstr "Cihazı eşle"
 
-#: selfdrive/ui/widgets/pairing_dialog.py:103
-#, python-format
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:68
+#, python-brace-format
+msgid "Pair your GitHub account"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:174
+#, python-brace-format
+msgid ""
+"Pair your GitHub account to grant your device sponsor benefits, including "
+"API access on sunnylink."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:92
+#, python-brace-format
 msgid "Pair your device to your comma account"
 msgstr "Cihazınızı comma hesabınızla eşleştirin"
 
-#: selfdrive/ui/widgets/setup.py:48 selfdrive/ui/layouts/settings/device.py:24
-#, python-format
+#: openpilot/selfdrive/ui/widgets/setup.py:48
+#: openpilot/selfdrive/ui/layouts/settings/device.py:27
+#, python-brace-format
 msgid ""
 "Pair your device with comma connect (connect.comma.ai) and claim your comma "
 "prime offer."
@@ -656,28 +1717,86 @@ msgstr ""
 "Cihazınızı comma connect (connect.comma.ai) ile eşleştirin ve comma prime "
 "teklifinizi alın."
 
-#: selfdrive/ui/widgets/setup.py:91
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:349
+#, python-brace-format
+msgid "Paired"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:21
+#, python-brace-format
+msgid "Pause"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:64
+#, python-brace-format
+msgid "Pause Lateral Control with Blinker"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:63
+#, python-brace-format
+msgid ""
+"Pause lateral control with blinker when traveling below the desired speed "
+"selected."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:21
+msgid "Pause: ALC will pause when the brake pedal is pressed."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:35
+#, python-brace-format
+msgid "Percent: Adds a percent offset [Speed Limit + (Offset % Speed Limit)]"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/setup.py:91
+#, python-brace-format
 msgid "Please connect to Wi-Fi to complete initial pairing"
 msgstr "İlk eşleştirmeyi tamamlamak için lütfen Wi‑Fi'a bağlanın"
 
-#: selfdrive/ui/layouts/settings/device.py:55
-#: selfdrive/ui/layouts/settings/device.py:187
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/software.py:26
+msgid ""
+"Please enable \"Always Offroad\" mode or turn off the vehicle to adjust "
+"these toggles."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:220
+#, python-brace-format
+msgid "Please reboot and try again."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:60
+#, python-brace-format
+msgid "Policy Model"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:77
+#, python-brace-format
+msgid "Post-Blinker Delay"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:58
+#: openpilot/selfdrive/ui/layouts/settings/device.py:190
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:105
+#, python-brace-format
 msgid "Power Off"
 msgstr "Kapat"
 
-#: system/ui/widgets/network.py:144
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:19
+#, python-brace-format
+msgid "Predictive"
+msgstr ""
+
+#: system/ui/widgets/network.py:150
+#, python-brace-format
 msgid "Prevent large data uploads when on a metered Wi-Fi connection"
 msgstr ""
 
-#: system/ui/widgets/network.py:135
-#, python-format
+#: system/ui/widgets/network.py:141
+#, python-brace-format
 msgid "Prevent large data uploads when on a metered cellular connection"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:25
+#: openpilot/selfdrive/ui/layouts/settings/device.py:28
 msgid ""
 "Preview the driver facing camera to ensure that driver monitoring has good "
 "visibility. (vehicle must be off)"
@@ -685,42 +1804,87 @@ msgstr ""
 "Sürücü izleme görünürlüğünün iyi olduğundan emin olmak için sürücüye bakan "
 "kamerayı önizleyin. (araç kapalı olmalıdır)"
 
-#: selfdrive/ui/widgets/pairing_dialog.py:161
-#, python-format
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:150
+#, python-brace-format
 msgid "QR Code Error"
 msgstr "QR Kod Hatası"
 
-#: selfdrive/ui/widgets/ssh_key.py:31
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:51
+#, python-brace-format
+msgid "Quickboot Mode"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:102
+#, python-brace-format
+msgid ""
+"Quickboot mode requires updates to be disabled.<br>Enable 'Disable Updates' "
+"in the Software panel first."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:81
+#, python-brace-format
+msgid "Quiet Mode"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:62
+#, python-brace-format
+msgid "REFRESH"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:75
+msgid "REGIST..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:31
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/__init__.py:45
+#, python-brace-format
 msgid "REMOVE"
 msgstr "KALDIR"
 
-#: selfdrive/ui/layouts/settings/device.py:51
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:54
+#, python-brace-format
 msgid "RESET"
 msgstr "SIFIRLA"
 
-#: selfdrive/ui/layouts/settings/device.py:65
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:68
+#, python-brace-format
 msgid "REVIEW"
 msgstr "GÖZDEN GEÇİR"
 
-#: selfdrive/ui/layouts/settings/device.py:55
-#: selfdrive/ui/layouts/settings/device.py:175
-#, python-format
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:96
+#, python-brace-format
+msgid "Re-enter the \"sunnylink\" panel to verify sponsorship status"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:103
+#, python-brace-format
+msgid "Real-Time & Offline"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:91
+#, python-brace-format
+msgid "Real-time Acceleration Bar"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:58
+#: openpilot/selfdrive/ui/layouts/settings/device.py:178
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:104
+#: selfdrive/ui/sunnypilot/layouts/settings/software.py:50
+#, python-brace-format
 msgid "Reboot"
 msgstr "Yeniden Başlat"
 
-#: selfdrive/ui/onroad/alert_renderer.py:66
-#, python-format
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:66
+#, python-brace-format
 msgid "Reboot Device"
 msgstr "Cihazı Yeniden Başlat"
 
-#: selfdrive/ui/widgets/offroad_alerts.py:112
-#, python-format
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:112
+#, python-brace-format
 msgid "Reboot and Update"
 msgstr "Yeniden Başlat ve Güncelle"
 
-#: selfdrive/ui/layouts/settings/toggles.py:27
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:31
 msgid ""
 "Receive alerts to steer back into the lane when your vehicle drifts over a "
 "detected lane line without a turn signal activated while driving over 31 mph "
@@ -729,17 +1893,17 @@ msgstr ""
 "Araç 31 mph (50 km/h) üzerindeyken sinyal verilmeden algılanan şerit "
 "çizgisini aştığınızda şeride geri dönmeniz için uyarılar alın."
 
-#: selfdrive/ui/layouts/settings/toggles.py:76
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:80
+#, python-brace-format
 msgid "Record and Upload Driver Camera"
 msgstr "Sürücü Kamerasını Kaydet ve Yükle"
 
-#: selfdrive/ui/layouts/settings/toggles.py:82
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:86
+#, python-brace-format
 msgid "Record and Upload Microphone Audio"
 msgstr "Mikrofon Sesini Kaydet ve Yükle"
 
-#: selfdrive/ui/layouts/settings/toggles.py:33
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:37
 msgid ""
 "Record and store microphone audio while driving. The audio will be included "
 "in the dashcam video in comma connect."
@@ -747,173 +1911,613 @@ msgstr ""
 "Sürüş sırasında mikrofon sesini kaydedip saklayın. Ses, comma connect'teki "
 "ön kamera videosuna dahil edilecektir."
 
-#: selfdrive/ui/layouts/settings/device.py:67
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:62
+#, python-brace-format
+msgid "Refresh Model List"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:70
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:89
+#, python-brace-format
 msgid "Regulatory"
 msgstr "Mevzuat"
 
-#: selfdrive/ui/layouts/settings/toggles.py:98
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:102
+#, python-brace-format
 msgid "Relaxed"
 msgstr "Rahat"
 
-#: selfdrive/ui/widgets/prime.py:47
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:20
+#, python-brace-format
+msgid "Remain Active"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:20
+msgid "Remain Active: ALC will remain active when the brake pedal is pressed."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
 msgid "Remote access"
 msgstr "Uzaktan erişim"
 
-#: selfdrive/ui/widgets/prime.py:47
-#, python-format
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
 msgid "Remote snapshots"
 msgstr "Uzaktan anlık görüntüler"
 
-#: selfdrive/ui/widgets/ssh_key.py:123
-#, python-format
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:123
+#, python-brace-format
 msgid "Request timed out"
 msgstr "İstek zaman aşımına uğradı"
 
-#: selfdrive/ui/layouts/settings/device.py:119
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:122
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:163
+#, python-brace-format
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: selfdrive/ui/layouts/settings/device.py:51
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:54
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:179
+#, python-brace-format
 msgid "Reset Calibration"
 msgstr "Kalibrasyonu Sıfırla"
 
-#: selfdrive/ui/layouts/settings/device.py:65
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:99
+#, python-brace-format
+msgid "Reset Settings"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:287
+#, python-brace-format
+msgid "Restore Failed"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:186
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:302
+#, python-brace-format
+msgid "Restore Settings"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:68
+#, python-brace-format
 msgid "Review Training Guide"
 msgstr "Eğitim Kılavuzunu İncele"
 
-#: selfdrive/ui/layouts/settings/device.py:27
-msgid "Review the rules, features, and limitations of openpilot"
+#: openpilot/selfdrive/ui/layouts/settings/device.py:30
+msgid "Review the rules, features, and limitations of sunnypilot"
 msgstr ""
-"openpilot'un kurallarını, özelliklerini ve sınırlamalarını gözden geçirin"
 
-#: selfdrive/ui/layouts/settings/software.py:61
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:118
+#, python-brace-format
+msgid "Right"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:118
+#, python-brace-format
+msgid "Right & Bottom"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:71
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:54
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:53
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:54
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:146
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/__init__.py:26
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/__init__.py:45
+#, python-brace-format
 msgid "SELECT"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/developer.py:53
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:165
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:343
+#, python-brace-format
+msgid "SPONSOR"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:57
+#, python-brace-format
 msgid "SSH Keys"
 msgstr ""
 
-#: system/ui/widgets/network.py:310
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:55
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:59
+#: selfdrive/ui/sunnypilot/layouts/sidebar.py:79
+msgid "SUNNYLINK"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/network.py:20
+#: selfdrive/ui/sunnypilot/layouts/settings/network.py:38
+#, python-brace-format
+msgid "Scan"
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:94
+#, python-brace-format
+msgid "Scan the QR code to login to your GitHub account"
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:101
+#, python-brace-format
+msgid "Scan the QR code to visit sunnyhaibin's GitHub Sponsors page"
+msgstr ""
+
+#: system/ui/widgets/network.py:316
+#, python-brace-format
 msgid "Scanning Wi-Fi networks..."
 msgstr ""
 
+#: selfdrive/ui/sunnypilot/layouts/settings/network.py:28
+#, python-brace-format
+msgid "Scanning..."
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/tree_dialog.py:90
+#, python-brace-format
+msgid "Search"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:117
+#, python-brace-format
+msgid "Search your vehicle"
+msgstr ""
+
 #: system/ui/widgets/option_dialog.py:36
-#, python-format
+#, python-brace-format
 msgid "Select"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:183
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:220
+#, python-brace-format
+msgid "Select a Model"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:195
+#: selfdrive/ui/sunnypilot/layouts/settings/software.py:84
+#, python-brace-format
 msgid "Select a branch"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:91
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:94
+#, python-brace-format
 msgid "Select a language"
 msgstr "Bir dil seçin"
 
-#: selfdrive/ui/layouts/settings/device.py:60
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:115
+#, python-brace-format
+msgid "Select a vehicle"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:38
+#, python-brace-format
+msgid "Select vehicle to force fingerprint manually."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:29
+#, python-brace-format
+msgid "Self-Tune"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:63
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:113
+#, python-brace-format
 msgid "Serial"
 msgstr "Seri"
 
-#: selfdrive/ui/widgets/offroad_alerts.py:106
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:33
+#, python-brace-format
+msgid ""
+"Set a timer to delay the auto lane change operation when the blinker is "
+"used. No nudge on the steering wheel is required to auto lane change if a "
+"timer is set. Default is Nudge.<br>Please use caution when using this "
+"feature. Only use the blinker when traffic and road conditions permit."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:76
+#, python-brace-format
+msgid "Set the maximum speed for lane turn desires. Default is 19 mph."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:271
+#, python-brace-format
+msgid "Settings backup completed."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:294
+#, python-brace-format
+msgid "Settings restored. Confirm to restart the interface."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:67
+#, python-brace-format
+msgid "Short Press Increment"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:39
+#, python-brace-format
+msgid "Show Advanced Controls"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:32
+#, python-brace-format
+msgid "Show Blind Spot Warnings"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:50
+#, python-brace-format
+msgid "Show a timer on the HUD when the car is at a standstill."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:92
+#, python-brace-format
+msgid ""
+"Show an indicator on the left side of the screen to display real-time "
+"vehicle acceleration and deceleration. This displays what the car is "
+"currently doing, not what the planner is requesting."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:56
+#, python-brace-format
+msgid "Smart Cruise Control - Map"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:51
+#, python-brace-format
+msgid "Smart Cruise Control - Vision"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:106
+#, python-brace-format
 msgid "Snooze Update"
 msgstr "Güncellemeyi Ertele"
 
-#: selfdrive/ui/layouts/settings/settings.py:65
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:62
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:117
 msgid "Software"
 msgstr "Yazılım"
 
-#: selfdrive/ui/layouts/settings/toggles.py:98
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:105
+#, python-brace-format
+msgid "Software Delay:"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:111
+#, python-brace-format
+msgid "Speed"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:80
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:59
+#, python-brace-format
+msgid "Speed Limit"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:73
+#, python-brace-format
+msgid "Speed Limit Offset"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_policy.py:40
+#, python-brace-format
+msgid "Speed Limit Source"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:76
+#, python-brace-format
+msgid "Speedometer: Always Display True Speed"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:81
+#, python-brace-format
+msgid "Speedometer: Hide from Onroad Screen"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:164
+#, python-brace-format
+msgid "Sponsor Status"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:53
+#, python-brace-format
+msgid "Sponsorship isn't required for basic backup/restore"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:102
+#, python-brace-format
 msgid "Standard"
 msgstr "Standart"
 
-#: selfdrive/ui/layouts/settings/toggles.py:22
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:26
 msgid ""
-"Standard is recommended. In aggressive mode, openpilot will follow lead cars "
-"closer and be more aggressive with the gas and brake. In relaxed mode "
-"openpilot will stay further away from lead cars. On supported cars, you can "
+"Standard is recommended. In aggressive mode, sunnypilot will follow lead "
+"cars closer and be more aggressive with the gas and brake. In relaxed mode "
+"sunnypilot will stay further away from lead cars. On supported cars, you can "
 "cycle through these personalities with your steering wheel distance button."
 msgstr ""
-"Standart önerilir. Agresif modda openpilot öndeki aracı daha yakından takip "
-"eder ve gaz/fren kullanımında daha ataktır. Rahat modda openpilot öndeki "
-"araçlardan daha uzak durur. Desteklenen araçlarda bu kişilikler arasında "
-"direksiyon mesafe düğmesiyle geçiş yapabilirsiniz."
 
-#: selfdrive/ui/onroad/alert_renderer.py:59
-#: selfdrive/ui/onroad/alert_renderer.py:65
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:99
+#, python-brace-format
+msgid "Start Download"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:31
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:44
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:31
+#, python-brace-format
+msgid "Start the vehicle to check vehicle compatibility."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:54
+#, python-brace-format
+msgid "State"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:119
+msgid "Steering"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:38
+#, python-brace-format
+msgid "Steering Arc"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:58
+#, python-brace-format
+msgid "Steering Mode on Brake Pedal"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/subaru.py:19
+#, python-brace-format
+msgid "Stop and Go (Beta)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/subaru.py:21
+#, python-brace-format
+msgid "Stop and Go for Manual Parking Brake (Beta)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:59
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:65
+#, python-brace-format
 msgid "System Unresponsive"
 msgstr "Sistem Yanıt Vermiyor"
 
-#: selfdrive/ui/onroad/alert_renderer.py:58
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/software.py:50
+#, python-brace-format
+msgid "System reboot required for changes to take effect. Reboot now?"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:58
+#, python-brace-format
 msgid "TAKE CONTROL IMMEDIATELY"
 msgstr "HEMEN KONTROLÜ DEVRALIN"
 
-#: selfdrive/ui/layouts/sidebar.py:71 selfdrive/ui/layouts/sidebar.py:125
-#: selfdrive/ui/layouts/sidebar.py:127 selfdrive/ui/layouts/sidebar.py:129
+#: openpilot/selfdrive/ui/layouts/sidebar.py:74
+#: openpilot/selfdrive/ui/layouts/sidebar.py:129
+#: openpilot/selfdrive/ui/layouts/sidebar.py:131
+#: openpilot/selfdrive/ui/layouts/sidebar.py:133
 msgid "TEMP"
 msgstr "TEMP"
 
-#: selfdrive/ui/layouts/settings/software.py:61
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:343
+#, python-brace-format
+msgid "THANKS ♥"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:71
+#, python-brace-format
 msgid "Target Branch"
 msgstr ""
 
-#: system/ui/widgets/network.py:124
-#, python-format
+#: system/ui/widgets/network.py:130
+#, python-brace-format
 msgid "Tethering Password"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/settings.py:64
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:157
+#, python-brace-format
+msgid "The reset cannot be undone. You have been warned."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:29
+msgid ""
+"This feature can only be used with sunnypilot longitudinal control enabled."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:32
+#, python-brace-format
+msgid ""
+"This feature defaults to OFF, and does not allow selection due to vehicle "
+"limitations."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:33
+#, python-brace-format
+msgid ""
+"This feature defaults to ON, and does not allow selection due to vehicle "
+"limitations."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/subaru.py:31
+#, python-brace-format
+msgid "This feature is currently not available on this platform."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:30
+msgid ""
+"This feature is not supported on this platform due to vehicle limitations."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:53
+#, python-brace-format
+msgid ""
+"This feature is unavailable because sunnypilot Longitudinal Control (Alpha) "
+"is not enabled."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:51
+#, python-brace-format
+msgid "This feature is unavailable while the car is onroad."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:17
+msgid "This feature requires sunnypilot longitudinal control to be available."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:155
+#, python-brace-format
+msgid ""
+"This is the master switch, it will allow you to cutoff any sunnylink "
+"requests should you want to do that."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:219
+#, python-brace-format
+msgid ""
+"This may be due to weak internet connection or sunnylink registration issue. "
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:34
+#, python-brace-format
+msgid "This platform only supports Disengage mode due to vehicle limitations."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:43
+#, python-brace-format
+msgid "This platform supports all MADS settings."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering.py:42
+#, python-brace-format
+msgid "This platform supports limited MADS settings."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:95
+#, python-brace-format
+msgid "This setting will take effect immediately."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:96
+#, python-brace-format
+msgid "This setting will take effect once the device enters offroad state."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:95
+#, python-brace-format
+msgid ""
+"This will delete ALL downloaded maps\n"
+"\n"
+"Are you sure you want to delete all maps?"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:125
+#, python-brace-format
+msgid ""
+"This will delete ALL downloaded models from the cache except the currently "
+"active model. Are you sure?"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:99
+#, python-brace-format
+msgid ""
+"This will start the download process and it might take a while to complete."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:111
+#, python-brace-format
+msgid "Time"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:51
+#, python-brace-format
+msgid ""
+"Toggle to enable a delay timer for seamless lane changes when blind spot "
+"monitoring (BSM) detects a obstructing vehicle, ensuring safe maneuvering."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:40
+#, python-brace-format
+msgid ""
+"Toggle visibility of advanced sunnypilot controls.<br>This only changes the "
+"visibility of the toggles; it does not change the actual enabled/disabled "
+"state."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:47
+#, python-brace-format
+msgid "Toggle with Main Cruise"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:61
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:116
 msgid "Toggles"
 msgstr "Seçenekler"
 
-#: selfdrive/ui/layouts/settings/software.py:72
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:105
+#, python-brace-format
+msgid "Total Delay:"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:91
+#, python-brace-format
+msgid "Training Guide"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:125
+msgid "Trips"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:83
+#, python-brace-format
+msgid "UI Debug Mode"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:82
+#, python-brace-format
 msgid "UNINSTALL"
 msgstr "KALDIR"
 
-#: selfdrive/ui/layouts/home.py:155
-#, python-format
+#: openpilot/selfdrive/ui/layouts/home.py:154
+#, python-brace-format
 msgid "UPDATE"
 msgstr "GÜNCELLE"
 
-#: selfdrive/ui/layouts/settings/software.py:72
-#: selfdrive/ui/layouts/settings/software.py:163
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:288
+#, python-brace-format
+msgid "Unable to restore the settings, try again later."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:52
+#, python-brace-format
+msgid "Unified Engagement Mode (UEM)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:82
+#: openpilot/selfdrive/ui/layouts/settings/software.py:175
+#, python-brace-format
 msgid "Uninstall"
 msgstr "Kaldır"
 
-#: selfdrive/ui/layouts/sidebar.py:117
+#: openpilot/selfdrive/ui/layouts/sidebar.py:121
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
-#: selfdrive/ui/layouts/settings/software.py:48
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:127
+#, python-brace-format
+msgid "Unrecognized Vehicle"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:58
+#, python-brace-format
 msgid "Updates are only downloaded while the car is off."
 msgstr "Güncellemeler yalnızca araç kapalıyken indirilir."
 
-#: selfdrive/ui/widgets/prime.py:33
-#, python-format
+#: openpilot/selfdrive/ui/widgets/prime.py:33
+#, python-brace-format
 msgid "Upgrade Now"
 msgstr "Şimdi Yükselt"
 
-#: selfdrive/ui/layouts/settings/toggles.py:31
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:35
 msgid ""
 "Upload data from the driver facing camera and help improve the driver "
 "monitoring algorithm."
@@ -921,35 +2525,88 @@ msgstr ""
 "Sürücüye bakan kameradan veri yükleyin ve sürücü izleme algoritmasını "
 "geliştirmeye yardımcı olun."
 
-#: selfdrive/ui/layouts/settings/toggles.py:88
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:81
+#, python-brace-format
+msgid "Use Lane Turn Desires"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:92
+#, python-brace-format
 msgid "Use Metric System"
 msgstr "Metrik Sistemi Kullan"
 
-#: selfdrive/ui/layouts/settings/toggles.py:17
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:57
+#, python-brace-format
 msgid ""
-"Use the openpilot system for adaptive cruise control and lane keep driver "
+"Use map data to estimate the appropriate speed to drive through turns ahead."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:21
+msgid ""
+"Use the sunnypilot system for adaptive cruise control and lane keep driver "
 "assistance. Your attention is required at all times to use this feature."
 msgstr ""
-"Uyarlanabilir hız sabitleyici ve şerit koruma sürücü yardımında openpilot "
-"sistemini kullanın. Bu özelliği kullanırken her zaman dikkatli olmanız "
-"gerekir."
 
-#: selfdrive/ui/layouts/sidebar.py:72 selfdrive/ui/layouts/sidebar.py:144
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:52
+#, python-brace-format
+msgid ""
+"Use vision path predictions to estimate the appropriate speed to drive "
+"through turns ahead."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:75
+#: openpilot/selfdrive/ui/layouts/sidebar.py:148
 msgid "VEHICLE"
 msgstr "ARAÇ"
 
-#: selfdrive/ui/layouts/settings/device.py:67
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:70
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:53
+#, python-brace-format
 msgid "VIEW"
 msgstr "GÖRÜNTÜLE"
 
-#: selfdrive/ui/onroad/alert_renderer.py:52
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:126
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:60
+#, python-brace-format
+msgid "Vehicle"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:53
+#, python-brace-format
+msgid "View the error log for sunnypilot crashes."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:59
+#, python-brace-format
+msgid "Vision Model"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:121
+msgid "Visuals"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:52
+#, python-brace-format
 msgid "Waiting to start"
 msgstr "Başlatma bekleniyor"
 
-#: selfdrive/ui/layouts/settings/developer.py:19
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:71
+#, python-brace-format
+msgid "Wake Up Behavior"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:22
+#, python-brace-format
+msgid "Warning"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:28
+#, python-brace-format
+msgid ""
+"Warning: Provides a warning when exceeding the current road's speed limit."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:22
 msgid ""
 "Warning: This grants SSH access to all public keys in your GitHub settings. "
 "Never enter a GitHub username other than your own. A comma employee will "
@@ -959,252 +2616,688 @@ msgstr ""
 "Kendi adınız dışında asla bir GitHub kullanıcı adı girmeyin. Bir comma "
 "çalışanı sizden asla GitHub kullanıcı adlarını eklemenizi İSTEMEZ."
 
-#: selfdrive/ui/layouts/onboarding.py:111
-#, python-format
-msgid "Welcome to openpilot"
-msgstr "openpilot'a hoş geldiniz"
-
-#: selfdrive/ui/layouts/settings/toggles.py:20
-msgid "When enabled, pressing the accelerator pedal will disengage openpilot."
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:323
+#, python-brace-format
+msgid "Welcome back!! We're excited to see you've enabled sunnylink again!"
 msgstr ""
-"Etkinleştirildiğinde, gaz pedalına basmak openpilot'u devreden çıkarır."
 
-#: selfdrive/ui/layouts/sidebar.py:44
+#: openpilot/selfdrive/ui/layouts/onboarding.py:115
+#, python-brace-format
+msgid "Welcome to sunnypilot"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/software.py:23
+msgid ""
+"When enabled, automatic software updates will be off.<br><b>This requires a "
+"reboot to take effect.</b>"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:24
+msgid "When enabled, pressing the accelerator pedal will disengage sunnypilot."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:22
+msgid ""
+"When enabled, sunnypilot will attempt to manage the built-in cruise control "
+"buttons by emulating button presses for limited longitudinal control."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:82
+#, python-brace-format
+msgid "When enabled, the speedometer on the onroad screen is not displayed."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/visuals.py:87
+#, python-brace-format
+msgid "When enabled, visual turn indicators are drawn on the HUD."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:99
+#, python-brace-format
+msgid ""
+"When toggled on, this creates a prebuilt file to allow accelerated boot "
+"times. When toggled off, it removes the prebuilt file so compilation of "
+"locally edited cpp files can be made."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:46
 msgid "Wi-Fi"
 msgstr "Wi‑Fi"
 
-#: system/ui/widgets/network.py:144
-#, python-format
+#: system/ui/widgets/network.py:150
+#, python-brace-format
 msgid "Wi-Fi Network Metered"
 msgstr ""
 
-#: system/ui/widgets/network.py:314
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:72
+#, python-brace-format
+msgid "Would you like to delete this log?"
+msgstr ""
+
+#: system/ui/widgets/network.py:320
+#, python-brace-format
 msgid "Wrong password"
 msgstr ""
 
-#: selfdrive/ui/layouts/onboarding.py:145
-#, python-format
-msgid "You must accept the Terms and Conditions in order to use openpilot."
-msgstr "openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz."
-
-#: selfdrive/ui/layouts/onboarding.py:112
-#, python-format
-msgid ""
-"You must accept the Terms and Conditions to use openpilot. Read the latest "
-"terms at https://comma.ai/terms before continuing."
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:72
+#, python-brace-format
+msgid "Yes"
 msgstr ""
-"openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz. Devam "
-"etmeden önce en güncel şartları https://comma.ai/terms adresinde okuyun."
 
-#: selfdrive/ui/onroad/driver_camera_dialog.py:34
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/osm.py:96
+#, python-brace-format
+msgid "Yes, delete all maps"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:149
+#, python-brace-format
+msgid "You must accept the Terms of Service in order to use sunnypilot."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:116
+#, python-brace-format
+msgid ""
+"You must accept the Terms of Service to use sunnypilot. Read the latest "
+"terms at https://sunnypilot.ai/terms before continuing."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:42
+#, python-brace-format
+msgid "Your vehicle will use the Default longitudinal tuning."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:43
+#, python-brace-format
+msgid "Your vehicle will use the Dynamic longitudinal tuning."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/hyundai.py:44
+#, python-brace-format
+msgid "Your vehicle will use the Predictive longitudinal tuning."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:142
+#, python-brace-format
+msgid "backing up"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:149
+#, python-brace-format
+msgid "backup"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:37
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:185
+#, python-brace-format
+msgid "backup settings"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/widgets/sunnylink_pairing_dialog.py:25
+#, python-brace-format
+msgid "become a sunnypilot sponsor"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/driver_camera_dialog.py:38
+#, python-brace-format
 msgid "camera starting"
 msgstr "kamera başlatılıyor"
 
-#: selfdrive/ui/widgets/prime.py:63
-#, python-format
+#: selfdrive/ui/sunnypilot/mici/layouts/models.py:27
+#, python-brace-format
+msgid "cancel download"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:22
+#, python-brace-format
+msgid "checking..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/prime.py:63
+#, python-brace-format
 msgid "comma prime"
 msgstr "comma prime"
 
-#: system/ui/widgets/network.py:142
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:46
+#, python-brace-format
+msgid "copyparty Service"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/developer.py:47
+#, python-brace-format
+msgid ""
+"copyparty is a very capable file server, you can use it to download your "
+"routes, view your logs and even make some edits on some files from your "
+"browser. Requires you to connect to your comma locally via its IP address."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/models.py:24
+#: selfdrive/ui/sunnypilot/mici/layouts/models.py:115
+#, python-brace-format
+msgid "current model"
+msgstr ""
+
+#: system/ui/widgets/network.py:148
+#, python-brace-format
 msgid "default"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:133
-#, python-format
+#: selfdrive/ui/sunnypilot/mici/layouts/models.py:56
+#: selfdrive/ui/sunnypilot/mici/layouts/models.py:112
+#, python-brace-format
+msgid "default model"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:136
+#, python-brace-format
 msgid "down"
 msgstr "aşağı"
 
-#: selfdrive/ui/layouts/settings/software.py:106
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:23
+#, python-brace-format
+msgid "downloading..."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:32
+#, python-brace-format
+msgid "enable sunnylink"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:150
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:172
+#, python-brace-format
+msgid "failed"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:118
+#, python-brace-format
 msgid "failed to check for update"
 msgstr "güncelleme kontrolü başarısız"
 
-#: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:24
+#, python-brace-format
+msgid "finalizing update..."
+msgstr ""
+
+#: system/ui/widgets/network.py:243 system/ui/widgets/network.py:320
+#, python-brace-format
 msgid "for \"{}\""
 msgstr ""
 
-#: selfdrive/ui/onroad/hud_renderer.py:177
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:166
+#, python-brace-format
+msgid "from cache"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:184
+#, python-brace-format
+msgid "h"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py:177
+#: selfdrive/ui/sunnypilot/onroad/speed_renderer.py:43
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:115
+#, python-brace-format
 msgid "km/h"
 msgstr "km/h"
 
-#: system/ui/widgets/network.py:204
-#, python-format
+#: system/ui/widgets/network.py:210
+#, python-brace-format
 msgid "leave blank for automatic configuration"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:134
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:137
+#, python-brace-format
 msgid "left"
 msgstr "sol"
 
-#: system/ui/widgets/network.py:142
-#, python-format
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:184
+#, python-brace-format
+msgid "m"
+msgstr ""
+
+#: system/ui/widgets/network.py:148
+#, python-brace-format
 msgid "metered"
 msgstr ""
 
-#: selfdrive/ui/onroad/hud_renderer.py:177
-#, python-format
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py:177
+#: selfdrive/ui/sunnypilot/onroad/speed_renderer.py:43
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise_sub_layouts/speed_limit_settings.py:115
+#, python-brace-format
 msgid "mph"
 msgstr "mph"
 
-#: selfdrive/ui/layouts/settings/software.py:20
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:30
+#, python-brace-format
 msgid "never"
 msgstr "asla"
 
-#: selfdrive/ui/layouts/settings/software.py:31
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:41
+#, python-brace-format
 msgid "now"
 msgstr "şimdi"
 
-#: selfdrive/ui/layouts/settings/developer.py:71
-#, python-format
-msgid "openpilot Longitudinal Control (Alpha)"
-msgstr "openpilot Boylamsal Kontrol (Alfa)"
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:75
+#, python-brace-format
+msgid "pair"
+msgstr ""
 
-#: selfdrive/ui/onroad/alert_renderer.py:51
-#, python-format
-msgid "openpilot Unavailable"
-msgstr "openpilot Kullanılamıyor"
+#: selfdrive/ui/sunnypilot/mici/widgets/sunnylink_pairing_dialog.py:25
+#, python-brace-format
+msgid "pair with sunnylink"
+msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:158
-#, python-format
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:73
+#, python-brace-format
+msgid "paired"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:167
+#, python-brace-format
+msgid "ready"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/tesla.py:32
+#, python-brace-format
+msgid "recommend disabling this feature if you experience these."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:171
+#, python-brace-format
+msgid "restore"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:39
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:188
+#, python-brace-format
+msgid "restore settings"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:164
+#, python-brace-format
+msgid "restoring"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:137
+#, python-brace-format
+msgid "right"
+msgstr "sağ"
+
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:43
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:44
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:45
+#: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:46
+#, python-brace-format
+msgid "s"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:155
+#, python-brace-format
+msgid "settings backed up"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:113
+#, python-brace-format
+msgid "slide to backup"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:113
+#, python-brace-format
+msgid "slide to restore"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:69
+#, python-brace-format
+msgid "sponsor"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/onboarding.py:23
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:115
+#, python-brace-format
+msgid "sunnylink"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:218
+#, python-brace-format
+msgid "sunnylink Dongle ID not found. "
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:205
+#, python-brace-format
+msgid "sunnylink Dongle ID not found. Please reboot & try again."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/onboarding.py:27
+#, python-brace-format
 msgid ""
-"openpilot defaults to driving in chill mode. Experimental mode enables alpha-"
-"level features that aren't ready for chill mode. Experimental features are "
-"listed below:<br><h4>End-to-End Longitudinal Control</h4><br>Let the driving "
-"model control the gas and brakes. openpilot will drive as it thinks a human "
-"would, including stopping for red lights and stop signs. Since the driving "
-"model decides the speed to drive, the set speed will only act as an upper "
-"bound. This is an alpha quality feature; mistakes should be expected."
+"sunnylink enables secured remote access to your comma device from anywhere, "
+"including settings management, remote monitoring, real-time dashboard, etc."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/onboarding.py:34
+#, python-brace-format
+msgid ""
+"sunnylink is designed to be enabled as part of sunnypilot's core "
+"functionality. If sunnylink is disabled, features such as settings "
+"management, remote monitoring, real-time dashboards will be unavailable."
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:41
+#, python-brace-format
+msgid "sunnylink uploader"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:75
+#, python-brace-format
+msgid "sunnypilot Longitudinal Control (Alpha)"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/cruise.py:26
+msgid ""
+"sunnypilot Longitudinal Control is the default longitudinal control for this "
+"platform."
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:51
+#, python-brace-format
+msgid "sunnypilot Unavailable"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:162
+#, python-brace-format
+msgid ""
+"sunnypilot defaults to driving in chill mode. Experimental mode enables "
+"alpha-level features that aren't ready for chill mode. Experimental features "
+"are listed below:<br><h4>End-to-End Longitudinal Control</h4><br>Let the "
+"driving model control the gas and brakes. sunnypilot will drive as it thinks "
+"a human would, including stopping for red lights and stop signs. Since the "
+"driving model decides the speed to drive, the set speed will only act as an "
+"upper bound. This is an alpha quality feature; mistakes should be expected."
 "<br><h4>New Driving Visualization</h4><br>The driving visualization will "
 "transition to the road-facing wide-angle camera at low speeds to better show "
 "some turns. The Experimental mode logo will also be shown in the top right "
 "corner."
 msgstr ""
-"openpilot varsayılan olarak chill modunda sürer. Deneysel mod, chill moduna "
-"hazır olmayan alfa seviyesindeki özellikleri etkinleştirir. Deneysel "
-"özellikler aşağıda listelenmiştir:<br><h4>Uçtan Uca Boylamsal Kontrol</"
-"h4><br>Sürüş modelinin gaz ve frenleri kontrol etmesine izin verin. "
-"openpilot, kırmızı ışıklarda ve dur işaretlerinde durmak dahil, bir insan "
-"nasıl sürer diye düşündüğüne göre sürer. Hızı sürüş modeli belirlediğinden, "
-"ayarlanan hız yalnızca üst sınır olarak işlev görür. Bu bir alfa kalitesinde "
-"özelliktir; hatalar beklenmelidir.<br><h4>Yeni Sürüş Görselleştirmesi</"
-"h4><br>Sürüş görselleştirmesi, düşük hızlarda bazı dönüşleri daha iyi "
-"göstermek için yola bakan geniş açılı kameraya geçer. Deneysel mod logosu "
-"sağ üst köşede de gösterilecektir."
 
-#: selfdrive/ui/layouts/settings/device.py:165
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:168
+#, python-brace-format
 msgid ""
-"openpilot is continuously calibrating, resetting is rarely required. "
-"Resetting calibration will restart openpilot if the car is powered on."
+"sunnypilot is continuously calibrating, resetting is rarely required. "
+"Resetting calibration will restart sunnypilot if the car is powered on."
 msgstr ""
-" Bu ayarı değiştirmek, araç çalışıyorsa openpilot'u yeniden başlatacaktır."
 
-#: selfdrive/ui/layouts/settings/firehose.py:20
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:12
 msgid ""
-"openpilot learns to drive by watching humans, like you, drive.\n"
+"sunnypilot learns to drive by watching humans, like you, drive.\n"
 "\n"
 "Firehose Mode allows you to maximize your training data uploads to improve "
 "openpilot's driving models. More data means bigger models, which means "
 "better Experimental Mode."
 msgstr ""
-"openpilot, sizin gibi insanların nasıl sürdüğünü izleyerek sürmeyi öğrenir.\n"
-"\n"
-"Firehose Modu, openpilot'un sürüş modellerini geliştirmek için eğitim veri "
-"yüklemelerinizi en üst düzeye çıkarmanıza olanak tanır. Daha fazla veri, "
-"daha büyük modeller demektir; bu da daha iyi Deneysel Mod anlamına gelir."
 
-#: selfdrive/ui/layouts/settings/toggles.py:183
-#, python-format
-msgid "openpilot longitudinal control may come in a future update."
-msgstr "openpilot boylamsal kontrolü gelecekteki bir güncellemede gelebilir."
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:187
+#, python-brace-format
+msgid "sunnypilot longitudinal control may come in a future update."
+msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:26
+#: openpilot/selfdrive/ui/layouts/settings/device.py:29
 msgid ""
-"openpilot requires the device to be mounted within 4° left or right and "
+"sunnypilot requires the device to be mounted within 4° left or right and "
 "within 5° up or 9° down."
 msgstr ""
-"openpilot, cihazın sağa/sola 4° ve yukarı 5° veya aşağı 9° içinde monte "
-"edilmesini gerektirir."
 
-#: selfdrive/ui/layouts/settings/device.py:134
-#, python-format
-msgid "right"
-msgstr "sağ"
+#: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/toyota.py:18
+msgid ""
+"sunnypilot will not take over control of gas and brakes. Factory Toyota "
+"longitudinal control will be used."
+msgstr ""
 
-#: system/ui/widgets/network.py:142
-#, python-format
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:65
+#, python-brace-format
+msgid "thanks"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/mici/layouts/sunnylink.py:173
+#, python-brace-format
+msgid "unable to restore"
+msgstr ""
+
+#: system/ui/widgets/network.py:148
+#, python-brace-format
 msgid "unmetered"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:133
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:136
+#, python-brace-format
 msgid "up"
 msgstr "yukarı"
 
-#: selfdrive/ui/layouts/settings/software.py:117
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:129
+#, python-brace-format
 msgid "up to date, last checked never"
 msgstr "güncel, son kontrol asla"
 
-#: selfdrive/ui/layouts/settings/software.py:115
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:127
+#, python-brace-format
 msgid "up to date, last checked {}"
 msgstr "güncel, son kontrol {}"
 
-#: selfdrive/ui/layouts/settings/software.py:109
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:121
+#, python-brace-format
 msgid "update available"
 msgstr "güncelleme mevcut"
 
-#: selfdrive/ui/layouts/home.py:169
-#, python-format
+#: openpilot/selfdrive/ui/layouts/home.py:168
+#, python-brace-format
 msgid "{} ALERT"
 msgid_plural "{} ALERTS"
 msgstr[0] "{} UYARI"
 msgstr[1] "{} UYARILAR"
 
-#: selfdrive/ui/layouts/settings/software.py:40
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:50
+#, python-brace-format
 msgid "{} day ago"
 msgid_plural "{} days ago"
 msgstr[0] "{} gün önce"
 msgstr[1] "{} gün önce"
 
-#: selfdrive/ui/layouts/settings/software.py:37
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:47
+#, python-brace-format
 msgid "{} hour ago"
 msgid_plural "{} hours ago"
 msgstr[0] "{} saat önce"
 msgstr[1] "{} saat önce"
 
-#: selfdrive/ui/layouts/settings/software.py:34
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/software.py:44
+#, python-brace-format
 msgid "{} minute ago"
 msgid_plural "{} minutes ago"
 msgstr[0] "{} dakika önce"
 msgstr[1] "{} dakika önce"
 
-#: selfdrive/ui/layouts/settings/firehose.py:111
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:70
+#, python-brace-format
 msgid "{} segment of your driving is in the training dataset so far."
 msgid_plural "{} segments of your driving is in the training dataset so far."
 msgstr[0] "{} segment sürüşünüz eğitim veri setinde."
 msgstr[1] "{} segment sürüşünüz eğitim veri setinde."
 
-#: selfdrive/ui/widgets/prime.py:62
-#, python-format
+#: openpilot/selfdrive/ui/widgets/prime.py:62
+#, python-brace-format
 msgid "✓ SUBSCRIBED"
 msgstr "✓ ABONE"
 
-#: selfdrive/ui/widgets/setup.py:22
-#, python-format
+#: openpilot/selfdrive/ui/widgets/setup.py:22
+#, python-brace-format
 msgid "🔥 Firehose Mode 🔥"
 msgstr "🔥 Firehose Modu 🔥"
+
+#~ msgid ""
+#~ "<b>WARNING: openpilot longitudinal control is in alpha for this car and "
+#~ "will disable Automatic Emergency Braking (AEB).</b><br><br>On this car, "
+#~ "openpilot defaults to the car's built-in ACC instead of openpilot's "
+#~ "longitudinal control. Enable this to switch to openpilot longitudinal "
+#~ "control. Enabling Experimental mode is recommended when enabling "
+#~ "openpilot longitudinal control alpha. Changing this setting will restart "
+#~ "openpilot if the car is powered on."
+#~ msgstr ""
+#~ "<b>UYARI: Bu araç için openpilot boylamsal kontrolü alfa aşamasındadır ve "
+#~ "Otomatik Acil Frenlemeyi (AEB) devre dışı bırakacaktır.</b><br><br>Bu "
+#~ "araçta openpilot, openpilot'un boylamsal kontrolü yerine aracın yerleşik "
+#~ "ACC'sini varsayılan olarak kullanır. openpilot boylamsal kontrolüne "
+#~ "geçmek için bunu etkinleştirin. openpilot boylamsal kontrol alfayı "
+#~ "etkinleştirirken Deneysel modu etkinleştirmeniz önerilir."
+
+#, python-format
+#~ msgid "ACTIVE"
+#~ msgstr "AKTİF"
+
+#, python-format
+#~ msgid ""
+#~ "An alpha version of openpilot longitudinal control can be tested, along "
+#~ "with Experimental mode, on non-release branches."
+#~ msgstr ""
+#~ "openpilot boylamsal kontrolünün alfa sürümü, Deneysel mod ile birlikte, "
+#~ "yayın dışı dallarda test edilebilir."
+
+#, python-format
+#~ msgid ""
+#~ "Changing this setting will restart openpilot if the car is powered on."
+#~ msgstr ""
+#~ " Bu ayarı değiştirmek, araç çalışıyorsa openpilot'u yeniden başlatacaktır."
+
+#, python-format
+#~ msgid "Decline, uninstall openpilot"
+#~ msgstr "Reddet, openpilot'u kaldır"
+
+#~ msgid "Enable driver monitoring even when openpilot is not engaged."
+#~ msgstr "openpilot devrede değilken bile sürücü izlemesini etkinleştir."
+
+#, python-format
+#~ msgid "Enable openpilot"
+#~ msgstr "openpilot'u etkinleştir"
+
+#, python-format
+#~ msgid ""
+#~ "Enable the openpilot longitudinal control (alpha) toggle to allow "
+#~ "Experimental mode."
+#~ msgstr ""
+#~ "Deneysel modu etkinleştirmek için openpilot boylamsal kontrolünü (alfa) "
+#~ "açın."
+
+#, python-format
+#~ msgid "INACTIVE: connect to an unmetered network"
+#~ msgstr "PASİF: sınırsız bir ağa bağlanın"
+
+#~ msgid "Review the rules, features, and limitations of openpilot"
+#~ msgstr ""
+#~ "openpilot'un kurallarını, özelliklerini ve sınırlamalarını gözden geçirin"
+
+#~ msgid ""
+#~ "Standard is recommended. In aggressive mode, openpilot will follow lead "
+#~ "cars closer and be more aggressive with the gas and brake. In relaxed "
+#~ "mode openpilot will stay further away from lead cars. On supported cars, "
+#~ "you can cycle through these personalities with your steering wheel "
+#~ "distance button."
+#~ msgstr ""
+#~ "Standart önerilir. Agresif modda openpilot öndeki aracı daha yakından "
+#~ "takip eder ve gaz/fren kullanımında daha ataktır. Rahat modda openpilot "
+#~ "öndeki araçlardan daha uzak durur. Desteklenen araçlarda bu kişilikler "
+#~ "arasında direksiyon mesafe düğmesiyle geçiş yapabilirsiniz."
+
+#~ msgid ""
+#~ "Use the openpilot system for adaptive cruise control and lane keep driver "
+#~ "assistance. Your attention is required at all times to use this feature."
+#~ msgstr ""
+#~ "Uyarlanabilir hız sabitleyici ve şerit koruma sürücü yardımında openpilot "
+#~ "sistemini kullanın. Bu özelliği kullanırken her zaman dikkatli olmanız "
+#~ "gerekir."
+
+#, python-format
+#~ msgid "Welcome to openpilot"
+#~ msgstr "openpilot'a hoş geldiniz"
+
+#~ msgid ""
+#~ "When enabled, pressing the accelerator pedal will disengage openpilot."
+#~ msgstr ""
+#~ "Etkinleştirildiğinde, gaz pedalına basmak openpilot'u devreden çıkarır."
+
+#, python-format
+#~ msgid "You must accept the Terms and Conditions in order to use openpilot."
+#~ msgstr "openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz."
+
+#, python-format
+#~ msgid ""
+#~ "You must accept the Terms and Conditions to use openpilot. Read the "
+#~ "latest terms at https://comma.ai/terms before continuing."
+#~ msgstr ""
+#~ "openpilot'u kullanmak için Şartlar ve Koşulları kabul etmelisiniz. Devam "
+#~ "etmeden önce en güncel şartları https://comma.ai/terms adresinde okuyun."
+
+#, python-format
+#~ msgid "openpilot Longitudinal Control (Alpha)"
+#~ msgstr "openpilot Boylamsal Kontrol (Alfa)"
+
+#, python-format
+#~ msgid "openpilot Unavailable"
+#~ msgstr "openpilot Kullanılamıyor"
+
+#, python-format
+#~ msgid ""
+#~ "openpilot defaults to driving in chill mode. Experimental mode enables "
+#~ "alpha-level features that aren't ready for chill mode. Experimental "
+#~ "features are listed below:<br><h4>End-to-End Longitudinal Control</"
+#~ "h4><br>Let the driving model control the gas and brakes. openpilot will "
+#~ "drive as it thinks a human would, including stopping for red lights and "
+#~ "stop signs. Since the driving model decides the speed to drive, the set "
+#~ "speed will only act as an upper bound. This is an alpha quality feature; "
+#~ "mistakes should be expected.<br><h4>New Driving Visualization</h4><br>The "
+#~ "driving visualization will transition to the road-facing wide-angle "
+#~ "camera at low speeds to better show some turns. The Experimental mode "
+#~ "logo will also be shown in the top right corner."
+#~ msgstr ""
+#~ "openpilot varsayılan olarak chill modunda sürer. Deneysel mod, chill "
+#~ "moduna hazır olmayan alfa seviyesindeki özellikleri etkinleştirir. "
+#~ "Deneysel özellikler aşağıda listelenmiştir:<br><h4>Uçtan Uca Boylamsal "
+#~ "Kontrol</h4><br>Sürüş modelinin gaz ve frenleri kontrol etmesine izin "
+#~ "verin. openpilot, kırmızı ışıklarda ve dur işaretlerinde durmak dahil, "
+#~ "bir insan nasıl sürer diye düşündüğüne göre sürer. Hızı sürüş modeli "
+#~ "belirlediğinden, ayarlanan hız yalnızca üst sınır olarak işlev görür. Bu "
+#~ "bir alfa kalitesinde özelliktir; hatalar beklenmelidir.<br><h4>Yeni Sürüş "
+#~ "Görselleştirmesi</h4><br>Sürüş görselleştirmesi, düşük hızlarda bazı "
+#~ "dönüşleri daha iyi göstermek için yola bakan geniş açılı kameraya geçer. "
+#~ "Deneysel mod logosu sağ üst köşede de gösterilecektir."
+
+#, python-format
+#~ msgid ""
+#~ "openpilot is continuously calibrating, resetting is rarely required. "
+#~ "Resetting calibration will restart openpilot if the car is powered on."
+#~ msgstr ""
+#~ " Bu ayarı değiştirmek, araç çalışıyorsa openpilot'u yeniden başlatacaktır."
+
+#~ msgid ""
+#~ "openpilot learns to drive by watching humans, like you, drive.\n"
+#~ "\n"
+#~ "Firehose Mode allows you to maximize your training data uploads to "
+#~ "improve openpilot's driving models. More data means bigger models, which "
+#~ "means better Experimental Mode."
+#~ msgstr ""
+#~ "openpilot, sizin gibi insanların nasıl sürdüğünü izleyerek sürmeyi "
+#~ "öğrenir.\n"
+#~ "\n"
+#~ "Firehose Modu, openpilot'un sürüş modellerini geliştirmek için eğitim "
+#~ "veri yüklemelerinizi en üst düzeye çıkarmanıza olanak tanır. Daha fazla "
+#~ "veri, daha büyük modeller demektir; bu da daha iyi Deneysel Mod anlamına "
+#~ "gelir."
+
+#, python-format
+#~ msgid "openpilot longitudinal control may come in a future update."
+#~ msgstr ""
+#~ "openpilot boylamsal kontrolü gelecekteki bir güncellemede gelebilir."
+
+#~ msgid ""
+#~ "openpilot requires the device to be mounted within 4° left or right and "
+#~ "within 5° up or 9° down."
+#~ msgstr ""
+#~ "openpilot, cihazın sağa/sola 4° ve yukarı 5° veya aşağı 9° içinde monte "
+#~ "edilmesini gerektirir."
