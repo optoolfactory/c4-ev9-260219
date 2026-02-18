@@ -2,7 +2,7 @@ import numpy as np
 
 from openpilot.sunnypilot.modeld_v2 import MODEL_PATH
 from openpilot.sunnypilot.modeld_v2.runners.ort_helpers import make_onnx_cpu_runner, ORT_TYPES_TO_NP_TYPES
-from openpilot.sunnypilot.models.runners.constants import ModelType, ShapeDict, CLMemDict, NumpyDict, FrameDict
+from openpilot.sunnypilot.models.runners.constants import ModelType, ShapeDict, NumpyDict
 from openpilot.sunnypilot.models.runners.model_runner import ModelRunner
 from openpilot.sunnypilot.modeld_v2.constants import ModelConstants
 
@@ -35,14 +35,12 @@ class ONNXRunner(ModelRunner):
     # ONNX shapes are derived directly from the model definition via the runner
     return {runner_input.name: runner_input.shape for runner_input in self.runner.get_inputs()}
 
-  def prepare_inputs(self, imgs_cl: CLMemDict, numpy_inputs: NumpyDict, frames: FrameDict) -> dict:
+  def prepare_inputs(self, numpy_inputs: NumpyDict) -> dict:
     """Prepares inputs for the ONNX model as numpy arrays."""
-    self.inputs = numpy_inputs # Start with non-image numpy inputs
-    # Convert image inputs from OpenCL buffers to numpy arrays
-    for key in imgs_cl:
-      buffer = frames[key].buffer_from_cl(imgs_cl[key])
-      reshaped_buffer = buffer.reshape(self.input_shapes[key])
-      self.inputs[key] = reshaped_buffer.astype(dtype=self.input_to_nptype[key])
+    self.inputs.update(numpy_inputs)
+    for key in self.vision_input_names:
+      if key in self.inputs and hasattr(self.inputs[key], 'numpy'):
+        self.inputs[key] = self.inputs[key].numpy().astype(dtype=self.input_to_nptype[key])
     return self.inputs
 
   def _parse_outputs(self, model_outputs: np.ndarray) -> NumpyDict:

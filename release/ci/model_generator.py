@@ -7,6 +7,30 @@ from pathlib import Path
 from datetime import datetime, UTC
 
 
+def reassemble_parts(pkl_path: Path) -> bool:
+  parts_manifest = Path(str(pkl_path) + ".parts")
+  if not parts_manifest.exists():
+    return False
+
+  lines = parts_manifest.read_text().splitlines()
+  expected_hash, chunk_names = lines[0], lines[1:]
+
+  data = bytearray()
+  for name in chunk_names:
+    data += (pkl_path.parent / name).read_bytes()
+
+  if hashlib.sha256(data).hexdigest() != expected_hash:
+    raise RuntimeError(f"hash mismatch reassembling {pkl_path}")
+
+  pkl_path.write_bytes(data)
+
+  parts_manifest.unlink()
+  for name in chunk_names:
+    (pkl_path.parent / name).unlink(missing_ok=True)
+
+  return True
+
+
 def create_short_name(full_name):
   # Remove parentheses and extract alphanumeric words
   clean_name = re.sub(r'\([^)]*\)', '', full_name)
@@ -50,6 +74,8 @@ def generate_metadata(model_path: Path, output_dir: Path, short_name: str):
   # Define output files for tinygrad and metadata
   tinygrad_file = output_path / f"{base}_tinygrad.pkl"
   metadata_file = output_path / f"{base}_metadata.pkl"
+
+  reassemble_parts(tinygrad_file)
 
   if not tinygrad_file.exists() or not metadata_file.exists():
     print(f"Error: Missing files for model {base} ({tinygrad_file} or {metadata_file})", file=sys.stderr)
