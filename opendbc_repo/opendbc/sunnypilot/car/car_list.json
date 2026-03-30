@@ -1973,6 +1973,16 @@
     ],
     "package": "Smart Cruise Control (SCC)"
   },
+  "Kia Carnival 20225": {
+    "platform": "KIA_CARNIVAL_4TH_GEN_2025",
+    "make": "Kia",
+    "brand": "hyundai",
+    "model": "Carnival",
+    "year": [
+      "2025"
+    ],
+    "package": "Smart Cruise Control (SCC)"
+  },  
   "Kia Carnival (China only) 2023": {
     "platform": "KIA_CARNIVAL_4TH_GEN",
     "make": "Kia",
