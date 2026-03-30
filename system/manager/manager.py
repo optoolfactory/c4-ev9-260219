@@ -76,16 +76,16 @@ def manager_init() -> None:
   params.put_bool("IsReleaseSpBranch", build_metadata.release_sp_channel)
   params.put("HardwareSerial", serial)
 
-  ev9_platform_bundle = {
-    "platform": "KIA_EV9",
-    "make": "Kia",
-    "brand": "hyundai",
-    "model": "EV9",
-    "year": ["2025", "2026"],
-    "package": "Smart Cruise Control (SCC)",
-    "name": "Kia EV9 2025-26",
-  }
-  params.put("CarPlatformBundle", ev9_platform_bundle)
+  #ev9_platform_bundle = {
+    #"platform": "KIA_EV9",
+    #"make": "Kia",
+    #"brand": "hyundai",
+    #"model": "EV9",
+    #"year": ["2025", "2026"],
+    #"package": "Smart Cruise Control (SCC)",
+    #"name": "Kia EV9 2025-26",
+  #}
+  #params.put("CarPlatformBundle", ev9_platform_bundle)
 
   # set dongle id
   reg_res = register(show_spinner=True)
